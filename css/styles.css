@@ -1,0 +1,170 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+strong {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+p {
+  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  margin: 50px auto 40px auto;
+  border-style: dotted;
+  border-width: 7px 0 0 0;
+  width: 4%;
+  color: lightgrey;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 550px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 550px;
+}
+
+.skill-row {
+  margin: 50px auto 50px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 1.7;
+  overflow: hidden;
+}
+
+.my-photo {
+  margin-top: 100px;
+  width: 15%;
+}
+
+.code-gif {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 25%;
+}
+
+.video-gif {
+  width: 25%;
+  float: right;
+  margin-left: 25px;
+}
+
+.contact-me {
+  margin-bottom: 170px;
+}
+
+.btn {
+  display: inline-block;
+  position: absolute;
+  margin-top: 40px;
+  background: linear-gradient(#66BFBF, #11999E);
+  color: white;
+  padding: 16px 30px 16px 30px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  transform: translate(-50%);
+}
+
+/********************************************************************
+
+Another way for the button not to move the bottom container
+
+.middle-container {
+  margin: auto;
+  height: 1600px;
+}
+
+.contact-me {
+  padding-bottom: 150px;
+    margin-bottom: 100px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 40px;
+  background: linear-gradient(#66BFBF, #11999E);
+  color: white;
+  padding: 16px 30px 16px 30px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  }
+
+.btn:hover {
+  padding: 19px 33px 19px 33px;
+  box-shadow: 0 0 15px 1px grey;
+}
+**********************************************************************/
+
+.btn:hover {
+  padding: 19px 33px 19px 33px;
+  box-shadow: 0 0 15px 1px grey;
+}
+
+.bottom-container {
+  height: 130px;
+  background-color: #66BFBF;
+  margin: 0;
+}
+
+.footer-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #11999E;
+  margin: 28px 15px 10px 15px;
+  height: 10px;
+  font-size: 1.2rem
+}
+
+.footer-link:hover {
+  color: #EAF6F6
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
